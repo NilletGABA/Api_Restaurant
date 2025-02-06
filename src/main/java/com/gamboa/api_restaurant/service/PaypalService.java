@@ -80,7 +80,7 @@ public class PaypalService {
 
         ApplicationContext applicationContext = ApplicationContext
                 .builder()
-                .brandName("EDteamReserve")
+                .brandName("Restaurantes de Lima")
                 .returnURL(returnUrl)
                 .cancelURL(cancelUrl)
                 .build();
